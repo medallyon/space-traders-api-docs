@@ -5,6 +5,8 @@ apis:
   SpaceTraders@2.1.0:
     # Update the path to your OpenAPI root file
     root: ./reference/SpaceTraders.json
+    x-openapi-ts:
+      output: ./openapi/openapi.ts
 
 lint:
   extends:
